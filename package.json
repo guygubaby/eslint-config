@@ -1,0 +1,20 @@
+{
+  "name": "@bryce/eslint-config-monorepo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.3.5"
+  }
+}
