@@ -1,0 +1,11 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 0.2.0 (2021-07-13)
+
+
+### Features
+
+* init eslint config ([0896ce8](https://github.com/guygubaby/eslint-config/commit/0896ce8e69ede7d381cb4590c5e7b3a0ad6240cb))
