@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/guygubaby/eslint-config/compare/v0.2.1...v0.3.0) (2021-07-13)
+
+
+### Features
+
+* add license ([5068cfa](https://github.com/guygubaby/eslint-config/commit/5068cfab9b274b1f6bd06f34ffa8f20c01c671f3))
+
+
+
+
+
 ## [0.2.1](https://github.com/guygubaby/eslint-config/compare/v0.2.0...v0.2.1) (2021-07-13)
 
 
