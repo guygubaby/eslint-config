@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/guygubaby/eslint-config/compare/v0.4.0...v0.4.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* change npm organization name ([7de55f4](https://github.com/guygubaby/eslint-config/commit/7de55f4095c833b129c6d643cfe6fb650a622ff2))
+
+
+
+
+
 # [0.4.0](https://github.com/guygubaby/eslint-config/compare/v0.3.0...v0.4.0) (2021-07-13)
 
 
