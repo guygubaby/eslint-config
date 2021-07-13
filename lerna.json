@@ -1,7 +1,8 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.3.0",
-  "npmClient": "pnpm"
+  "packages": ["packages/*"],
+  "version": "0.1.0",
+  "npmClient": "pnpm",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

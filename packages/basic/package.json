@@ -1,6 +1,6 @@
 {
   "name": "@bryce/eslint-config-basic",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -34,5 +34,5 @@
   "peerDependencies": {
     "eslint": "^7.30.0"
   },
-  "gitHead": "660c95d3f6fc7608b3bf698869dce78de419a87f"
+  "gitHead": "8e7f4d619612bd38dbd35ce75f352ed3d1f2ce59"
 }
