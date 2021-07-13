@@ -1,8 +1,8 @@
-const basic = require('@bryce/eslint-config-basic')
+const basic = require('@bryce-loskie/eslint-config-basic')
 
 module.exports = {
   extends: [
-    "@bryce/eslint-config-basic",
+    "@bryce-loskie/eslint-config-basic",
     "plugin:@typescript-eslint/recommended"
   ],
   overrides: basic.overrides,

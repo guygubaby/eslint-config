@@ -1,5 +1,5 @@
 {
-  "name": "@bryce/eslint-config-monorepo",
+  "name": "@bryce-loskie/eslint-config-monorepo",
   "version": "0.3.0",
   "license": "MIT",
   "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",

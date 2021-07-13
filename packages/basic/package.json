@@ -1,5 +1,5 @@
 {
-  "name": "@bryce/eslint-config-basic",
+  "name": "@bryce-loskie/eslint-config-basic",
   "version": "0.4.0",
   "description": "",
   "keywords": [],
@@ -34,5 +34,5 @@
   "peerDependencies": {
     "eslint": "^7.30.0"
   },
-  "gitHead": "8e7f4d619612bd38dbd35ce75f352ed3d1f2ce59"
+  "gitHead": "224697b4aa178e4d009511a17087c1920de6c5ba"
 }
