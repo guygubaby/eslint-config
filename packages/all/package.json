@@ -1,0 +1,36 @@
+{
+  "name": "@bryce-loskie/eslint-config-all",
+  "version": "0.4.1",
+  "description": "",
+  "keywords": [],
+  "author": "guygubaby <guygubaby@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "./index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guygubaby/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/guygubaby/eslint-config/issues"
+  },
+  "homepage": "https://github.com/guygubaby/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  },
+  "dependencies": {
+    "@bryce-loskie/eslint-config-react": "^0.4.1",
+    "@bryce-loskie/eslint-config-vue": "^0.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  }
+}
