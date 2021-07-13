@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-vue",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/guygubaby/eslint-config#readme",
   "dependencies": {
-    "@bryce-loskie/eslint-config-ts": "^0.4.1",
+    "@bryce-loskie/eslint-config-ts": "^0.5.0",
     "eslint-plugin-vue": "^7.13.0"
   },
   "devDependencies": {
