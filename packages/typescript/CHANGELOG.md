@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/guygubaby/eslint-config/compare/v0.2.0...v0.2.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* fix npm package version ([3a87821](https://github.com/guygubaby/eslint-config/commit/3a87821e510f9ee9f9969db48a6096d79f285001))
+
+
+
+
+
 # 0.2.0 (2021-07-13)
 
 
