@@ -26,5 +26,6 @@
   "peerDependencies": {
     "eslint": ">=7.4.0",
     "typescript": ">=4.0"
-  }
+  },
+  "gitHead": "412e304049d39d0abf444fa710a542df85a9c178"
 }
