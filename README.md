@@ -1,41 +1,33 @@
-# My ESLint configs
+# my eslint configs
 
-## For basic js lint
+## brife intro
+
+This is my eslint config presets
+
+## eslint presets list
+
+- **for basic js** @bryce-loskie/eslint-config-basic
+- **for typescript** @bryce-loskie/eslint-config-ts
+- **for vue** @bryce-loskie/eslint-config-vue
+- **for react** @bryce-loskie/eslint-config-react
+- **for vue&react** @bryce-loskie/eslint-config
+
+## usage
 
 ```bash
-pnpm i @bryce-loskie/eslint-config-basic
-# or
-yarn add @bryce-loskie/eslint-config-basic
+yarn add @bryce-loskie/eslint-config[-type] eslint -D
 ```
 
-## For typescript
-
-```bash
-pnpm i @bryce-loskie/eslint-config-ts
-# or
-yarn add @bryce-loskie/eslint-config-ts
-```
-
-## For vue
-
-```bash
-pnpm i @bryce-loskie/eslint-config-vue
-# or
-yarn add @bryce-loskie/eslint-config-vue
-```
-
-## For react
-
-```bash
-pnpm i @bryce-loskie/eslint-config-react
-# or
-yarn add @bryce-loskie/eslint-config-react
-```
-
-## For vue and react
-
-```bash
-pnpm i @bryce-loskie/eslint-config
-# or
-yarn add @bryce-loskie/eslint-config
+```ts
+// .eslintrc.js
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+    browser: true,
+  },
+  extends: [
+    '@bryce-loskie/eslint-config-vue',
+  ],
+}
 ```
