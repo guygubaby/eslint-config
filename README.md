@@ -27,7 +27,7 @@ module.exports = {
     browser: true,
   },
   extends: [
-    '@bryce-loskie/eslint-config-vue',
+    '@bryce-loskie/eslint-config[-type]', // set your type here ❤
   ],
 }
 ```
