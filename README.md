@@ -1,4 +1,4 @@
-# my eslint configs
+# My eslint config presets
 
 ## brife intro
 
