@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-basic",
-  "version": "0.6.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -16,7 +16,7 @@
     "lint": "eslint . --ext js --config=index.js"
   },
   "devDependencies": {
-    "eslint": "^7.30.0"
+    "eslint": "^8.1.0"
   },
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
@@ -32,7 +32,6 @@
     "yaml-eslint-parser": "^0.3.2"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "gitHead": "224697b4aa178e4d009511a17087c1920de6c5ba"
+    "eslint": ">=7.4.0 || >=8.0.0"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config",
-  "version": "0.6.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -26,11 +26,11 @@
   "devDependencies": {
     "eslint": "^7.30.0"
   },
-  "dependencies": {
-    "@bryce-loskie/eslint-config-react": "^0.6.0",
-    "@bryce-loskie/eslint-config-vue": "^0.6.0"
-  },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0 || >=8.0.0"
+  },
+  "dependencies": {
+    "@bryce-loskie/eslint-config-react": "workspace:*",
+    "@bryce-loskie/eslint-config-vue": "workspace:*"
   }
 }
