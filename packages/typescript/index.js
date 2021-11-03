@@ -2,11 +2,13 @@ const basic = require('@bryce-loskie/eslint-config-basic')
 
 module.exports = {
   extends: [
-    "@bryce-loskie/eslint-config-basic",
-    "plugin:@typescript-eslint/recommended"
+    '@bryce-loskie/eslint-config-basic',
+    'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
   rules: {
+    'import/named': 'off',
+
     // TS
     'no-useless-constructor': 'off',
     '@typescript-eslint/semi': ['error', 'never'],

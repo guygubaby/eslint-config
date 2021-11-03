@@ -11,7 +11,10 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
   ],
-  plugins: ['html', 'unicorn'],
+  plugins: [
+    'html',
+    'unicorn',
+  ],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
@@ -22,10 +25,14 @@ module.exports = {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
       rules: {
-        'quotes': ['error', 'single'],
+        'quotes': ['error', 'double'],
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
       },
+    },
+    {
+      files: ["*.yaml", "*.yml"],
+      parser: "yaml-eslint-parser",
     },
     {
       files: ['package.json'],
@@ -66,6 +73,24 @@ module.exports = {
             order: { type: 'asc' },
           },
         ],
+      },
+    },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['scripts/**/*.*'],
+      rules: {
+        'no-console': 'off',
       },
     },
   ],
@@ -145,7 +170,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'consistent-return': 'off',
     'complexity': ['off', 11],
-    'eqeqeq': ['error', 'allow-null'],
+    'eqeqeq': ['error', 'smart'],
     'no-alert': 'warn',
     'no-case-declarations': 'error',
     'no-multi-spaces': 'error',
