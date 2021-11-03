@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -30,9 +30,9 @@
   },
   "dependencies": {
     "@bryce-loskie/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.26.1"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0 || >=8.0.0"
+    "eslint": ">=7.4.0"
   }
 }

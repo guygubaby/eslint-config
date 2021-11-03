@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -31,6 +31,6 @@
     "eslint": "^8.1.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0 || >=8.0.0"
+    "eslint": ">=7.4.0"
   }
 }
