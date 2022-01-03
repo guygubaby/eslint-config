@@ -1,7 +1,7 @@
 {
   "name": "@bryce-loskie/eslint-config-vue",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "ESLint configuration for Vue.js",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "ISC",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/guygubaby/eslint-config.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "lint": "eslint . --ext .js --config index.js"
   },
   "bugs": {
     "url": "https://github.com/guygubaby/eslint-config/issues"
@@ -28,7 +28,7 @@
     "eslint-plugin-vue": "^7.13.0"
   },
   "devDependencies": {
-    "eslint": "^8.1.0"
+    "eslint": "^8.6.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

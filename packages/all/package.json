@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -17,14 +17,14 @@
     "url": "git+https://github.com/guygubaby/eslint-config.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "lint": "eslint . --ext .js --config index.js"
   },
   "bugs": {
     "url": "https://github.com/guygubaby/eslint-config/issues"
   },
   "homepage": "https://github.com/guygubaby/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^7.30.0"
+    "eslint": "^8.5.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
