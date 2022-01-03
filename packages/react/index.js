@@ -11,7 +11,8 @@ module.exports = {
   rules: {
     'jsx-quotes': [
       'error',
-      'prefer-single',
+      'prefer-double',
     ],
+    'react/react-in-jsx-scope': 'off',
   },
 }
