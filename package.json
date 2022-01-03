@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-monorepo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",
   "private": true,
