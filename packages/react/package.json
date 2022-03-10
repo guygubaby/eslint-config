@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-react",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint configuration for React",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/guygubaby/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^8.6.0",
+    "eslint": "^8.10.0",
     "react": "^17.0.2",
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.2"
   },
   "dependencies": {
     "@bryce-loskie/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.28.0"
+    "eslint-plugin-react": "^7.29.3"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
