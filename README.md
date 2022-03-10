@@ -31,3 +31,11 @@ module.exports = {
   ],
 }
 ```
+
+## Tips
+
+pnpm publish workspace:
+
+```bash
+pnpm -r publish packges --access public
+```
