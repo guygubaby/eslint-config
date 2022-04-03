@@ -21,11 +21,6 @@ yarn add @bryce-loskie/eslint-config[-type] eslint -D
 ```ts
 // .eslintrc.js
 module.exports = {
-  root: true,
-  env: {
-    node: true,
-    browser: true,
-  },
   extends: [
     '@bryce-loskie/eslint-config[-type]', // set your type here ❤
   ],

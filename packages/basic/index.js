@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'standard',
+    './standard',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
@@ -32,10 +32,11 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
+    'antfu',
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+      node: { extensions: ['.js', '.mjs'] },
     },
   },
   overrides: [
@@ -288,5 +289,9 @@ module.exports = {
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
+
+    // antfu
+    'antfu/no-leading-newline': 'error',
+    'antfu/if-newline': 'error',
   },
 }
