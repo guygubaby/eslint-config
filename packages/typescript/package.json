@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-ts",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESLint configuration for TypeScript",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
