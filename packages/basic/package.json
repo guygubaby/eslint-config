@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-basic",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "keywords": [],
   "author": "guygubaby <guygubaby@gmail.com>",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "eslint-config-standard": "17.0.0-1",
+    "eslint-plugin-antfu": "^0.19.4",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
