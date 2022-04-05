@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    './standard',
+    require.resolve('./standard.js'),
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
