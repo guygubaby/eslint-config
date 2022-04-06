@@ -292,6 +292,6 @@ module.exports = {
 
     // antfu
     'antfu/no-leading-newline': 'error',
-    'antfu/if-newline': 'error',
+    'antfu/if-newline': 'off',
   },
 }
