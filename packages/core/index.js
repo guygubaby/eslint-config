@@ -1,0 +1,10 @@
+module.exports = {
+  extends: [
+    '@antfu',
+  ],
+  rules: {
+    'vue/component-tags-order': ['error', {
+      order: ['template', 'script', 'style'],
+    }],
+  },
+}
