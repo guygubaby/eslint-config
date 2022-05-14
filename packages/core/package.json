@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config",
-  "version": "1.0.14",
+  "version": "2.0.0",
   "description": "Opinionated ESLint configuration extended from @antfu and add more custom rules",
   "keywords": [
     "eslint config"
