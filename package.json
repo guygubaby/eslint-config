@@ -1,9 +1,9 @@
 {
   "name": "@bryce-loskie/eslint-config-monorepo",
   "version": "2.0.0",
-  "license": "MIT",
-  "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",
   "private": true,
+  "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",
+  "license": "MIT",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint --ext .js --fix .",

@@ -3,8 +3,11 @@ module.exports = {
     '@antfu',
   ],
   rules: {
-    'vue/component-tags-order': ['error', {
-      order: ['template', 'script', 'style'],
-    }],
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['template', 'script', 'style'],
+      },
+    ],
   },
 }
