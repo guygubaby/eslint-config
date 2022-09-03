@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config-monorepo",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "private": true,
   "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",
   "license": "MIT",
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "bumpp": "^8.2.1",
-    "eslint": "^8.21.0",
-    "typescript": "^4.7.4"
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
   }
 }
