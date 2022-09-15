@@ -7,14 +7,14 @@ This is my eslint config presets
 ## usage
 
 ```bash
-yarn add @bryce-loskie/eslint-config eslint -D
+pnpm i @bryce-loskie/eslint-config eslint -D
 ```
 
 ```ts
 // .eslintrc.js
 module.exports = {
   extends: [
-    '@bryce-loskie', // set your type here ❤
+    '@bryce-loskie',
   ],
 }
 ```
@@ -24,5 +24,5 @@ module.exports = {
 pnpm publish workspace:
 
 ```bash
-pnpm -r publish packges --access public
+pnpm -r publish packages/* --access public
 ```

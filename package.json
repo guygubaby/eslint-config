@@ -1,17 +1,41 @@
 {
-  "name": "@bryce-loskie/eslint-config-monorepo",
+  "name": "@bryce-loskie/eslint-config",
   "version": "2.0.4",
-  "private": true,
-  "author": "Bryce Loskie <guygubaby@gmail.com> (https://github.com/guygubaby/)",
+  "description": "Opinionated ESLint configuration extended from @antfu and add more custom rules",
+  "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/guygubaby/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guygubaby/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guygubaby/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint config"
+  ],
+  "main": "index.js",
+  "files": [
+    "./index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "lint": "eslint . --ext .js --config index.js",
     "preinstall": "npx only-allow pnpm",
-    "lint": "npx eslint --ext .js --fix .",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.26.3"
   },
   "devDependencies": {
     "bumpp": "^8.2.1",
-    "eslint": "^8.23.0",
-    "typescript": "^4.8.2"
+    "eslint": "^8.23.1",
+    "typescript": "^4.8.3"
   }
 }

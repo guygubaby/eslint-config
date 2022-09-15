@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve('./packages/core/index.js')],
+  extends: [require.resolve('./index.js')],
 }
