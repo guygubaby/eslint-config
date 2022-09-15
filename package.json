@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Opinionated ESLint configuration extended from @antfu and add more custom rules",
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
@@ -25,7 +25,7 @@
   "scripts": {
     "lint": "eslint . --ext .js --config index.js",
     "preinstall": "npx only-allow pnpm",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag"
+    "release": "bumpp package.json --commit --push --tag"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
