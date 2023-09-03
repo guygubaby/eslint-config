@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/eslint-config",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "packageManager": "pnpm@8.7.1",
   "description": "Opinionated ESLint configuration extended from @antfu and add more custom rules",
   "author": "guygubaby <guygubaby@gmail.com>",
