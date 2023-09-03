@@ -1,7 +1,7 @@
 {
   "name": "@bryce-loskie/eslint-config",
   "version": "2.1.4",
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@8.7.1",
   "description": "Opinionated ESLint configuration extended from @antfu and add more custom rules",
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
@@ -31,11 +31,11 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^0.38.4"
+    "@antfu/eslint-config": "^0.41.0"
   },
   "devDependencies": {
-    "bumpp": "^9.1.0",
-    "eslint": "^8.37.0",
-    "typescript": "^5.0.3"
+    "bumpp": "^9.2.0",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2"
   }
 }
